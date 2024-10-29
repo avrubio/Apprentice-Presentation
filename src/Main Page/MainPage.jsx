@@ -2,13 +2,6 @@ import CvsLogo from '../imgs/CvsLogo.png';
 import InteraptLogo from '../imgs/InteraptTransparentLogo.png';
 import headshot from '../imgs/TransparentNewHeadshot (1).png';
 
-const stats = [
-  { label: "Founded", value: "2021" },
-  { label: "Employees", value: "37" },
-  { label: "Countries", value: "12" },
-  { label: "Raised", value: "$25M" },
-];
-
 export default function MainPage() {
   return (
     <div className=" py-24 sm:py-32">
@@ -49,7 +42,7 @@ export default function MainPage() {
             </dl>
             <div className="mt-10 flex">
               <a
-                href="#"
+                href="http://www.invadethecode.com"
                 className="text-base font-semibold leading-7 text-indigo-600"
               >
                 Learn more about me and my journey!{" "}

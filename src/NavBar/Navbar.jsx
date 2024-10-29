@@ -1,3 +1,7 @@
+import React from 'react';
+
+import { Link } from 'react-router-dom';
+
 export default function Navbar() {
   return (
     <div className="navbar bg-indigo-200">
@@ -24,49 +28,62 @@ export default function Navbar() {
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
           >
             <li>
-              <a>Introduction</a>
+              <Link to="/">Introduction</Link>
             </li>
             <li>
-              <a>The meets and potatoes</a>
+              {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+              <a href="http://www.invadethecode.com">The meets and potatoes</a>
               <ul className="p-2">
                 <li>
-                  <a>Skills & Experience</a>
+                  <Link to="/skills">Skills & Experience</Link>
                 </li>
                 <li>
-                  <a>Overview of Team & Responsibilities</a>
+                  <a href="http://www.invadethecode.com">
+                    Overview of Team & Responsibilities
+                  </a>
                 </li>
                 <li>
-                  <a>Talent Success Qualities</a>
+                  <a href="http://www.invadethecode.com">
+                    Talent Success Qualities
+                  </a>
                 </li>
                 <li>
-                  <a>Continuous Learning and Growth</a>
+                  <a href="http://www.invadethecode.com">
+                    Continuous Learning and Growth
+                  </a>
                 </li>
               </ul>
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl">Ariadna Vanegas-Rubio</a>
+        <Link to="/">Ariadna Vanegas-Rubio</Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <a>Introduction</a>
+            <Link to="/">Introduction</Link>
           </li>
           <li>
             <details>
               <summary>The Good Stuff!</summary>
               <ul className="p-2">
                 <li>
-                  <a>Skills & Experience</a>
+                  <Link to="/skills">Skills & Experience</Link>
                 </li>
                 <li>
-                  <a>Overview of Team & Responsibilities</a>
+                  <a href="http://www.invadethecode.com">
+                    Overview of Team & Responsibilities
+                  </a>
                 </li>
                 <li>
-                  <a>Talent Success Qualities</a>
+                  <a href="http://www.invadethecode.com">
+                    Talent Success Qualities
+                  </a>
                 </li>
                 <li>
-                  <a>Continuous Learning and Growth</a>
+                  <a href="http://www.invadethecode.com">
+                    Continuous Learning and Growth
+                  </a>
                 </li>
               </ul>
             </details>
@@ -74,7 +91,9 @@ export default function Navbar() {
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn">Button</a>
+        <a className="btn" href="http://www.invadethecode.com">
+          Button
+        </a>
       </div>
     </div>
   );

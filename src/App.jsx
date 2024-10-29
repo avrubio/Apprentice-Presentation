@@ -13,8 +13,8 @@ import SkillsPage from './Skills&Experience/SkillsPage';
 function App() {
   return (
     <div className="App" data-theme="pastel">
-      <Navbar></Navbar>
       <BrowserRouter>
+        <Navbar></Navbar>
         <Routes>
           <Route path="/" element={<MainPage />} />
           <Route path="/skills" element={<SkillsPage />} />
