@@ -4,7 +4,7 @@ import headshot from '../imgs/TransparentNewHeadshot (1).png';
 
 export default function MainPage() {
   return (
-    <div className=" py-24 sm:py-32">
+    <div className=" py-10 sm:py-10">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto grid max-w-2xl grid-cols-1 items-start gap-x-8 gap-y-16 sm:gap-y-24 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pr-4">
@@ -27,10 +27,9 @@ export default function MainPage() {
               </h1>
               <div className="max-w-xl">
                 <p className="mt-6">
-                  I'm a Software Engineer Apprentice with CVS Health, and for
-                  the duration of my apprenticeship I have been working remotely
-                  <br />
-                  in New York City
+                  I'm a Software Engineer Apprentice with Interapt contracted to
+                  CVS Health, and for the duration of my apprenticeship I have
+                  been working remotely in New York City
                 </p>
               </div>
             </div>
