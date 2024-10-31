@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.725928a6.css",
+    "main.js": "/static/js/main.e9682508.js",
+    "static/js/208.c196e62b.chunk.js": "/static/js/208.c196e62b.chunk.js",
+    "static/js/293.cc843329.chunk.js": "/static/js/293.cc843329.chunk.js",
+    "static/js/917.21280dd2.chunk.js": "/static/js/917.21280dd2.chunk.js",
+    "static/js/516.8c438b0c.chunk.js": "/static/js/516.8c438b0c.chunk.js",
+    "static/js/519.c3f4b6f0.chunk.js": "/static/js/519.c3f4b6f0.chunk.js",
+    "static/js/946.a1cf3f3a.chunk.js": "/static/js/946.a1cf3f3a.chunk.js",
+    "static/js/160.7e323b6b.chunk.js": "/static/js/160.7e323b6b.chunk.js",
+    "static/js/23.63ded686.chunk.js": "/static/js/23.63ded686.chunk.js",
+    "static/media/PPE.jpg": "/static/media/PPE.d93fb85eae12eb632fec.jpg",
+    "static/media/TransparentNewHeadshot (1).png": "/static/media/TransparentNewHeadshot (1).982a8b75e6fa62d3b7ee.png",
+    "static/media/CvsLogo.png": "/static/media/CvsLogo.6dc2f1173d7f93f085e7.png",
+    "static/media/Stevejobs.webp": "/static/media/Stevejobs.26f0f92fd51bb609e385.webp",
+    "static/media/InteraptTransparentLogo.png": "/static/media/InteraptTransparentLogo.5deb570fe0f6a63a92bd.png",
+    "static/media/GenUSA.png": "/static/media/GenUSA.af061b51566f6f5d9b56.png",
+    "index.html": "/index.html",
+    "main.725928a6.css.map": "/static/css/main.725928a6.css.map",
+    "main.e9682508.js.map": "/static/js/main.e9682508.js.map",
+    "208.c196e62b.chunk.js.map": "/static/js/208.c196e62b.chunk.js.map",
+    "293.cc843329.chunk.js.map": "/static/js/293.cc843329.chunk.js.map",
+    "917.21280dd2.chunk.js.map": "/static/js/917.21280dd2.chunk.js.map",
+    "516.8c438b0c.chunk.js.map": "/static/js/516.8c438b0c.chunk.js.map",
+    "519.c3f4b6f0.chunk.js.map": "/static/js/519.c3f4b6f0.chunk.js.map",
+    "946.a1cf3f3a.chunk.js.map": "/static/js/946.a1cf3f3a.chunk.js.map",
+    "160.7e323b6b.chunk.js.map": "/static/js/160.7e323b6b.chunk.js.map",
+    "23.63ded686.chunk.js.map": "/static/js/23.63ded686.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.725928a6.css",
+    "static/js/main.e9682508.js"
+  ]
+}
