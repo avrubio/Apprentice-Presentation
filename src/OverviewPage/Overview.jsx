@@ -1,5 +1,6 @@
 import {
   AcademicCapIcon,
+  ClockIcon,
   HandThumbUpIcon,
   MagnifyingGlassIcon,
   UserGroupIcon,
@@ -20,8 +21,8 @@ export default function Overview() {
             Teams & Responsibilities
           </h1>
           <p className="mt-6 text-xl/8 text-gray-700 text-left">
-            With Cvs I have been on three teams, Clinical formulary
-            requirements, End to End, and Digital Pulse.
+            With CVS Health I have been on three teams so far. <br></br>
+            Clinical Formulary Requirements, End to End, and Digital Pulse.
           </p>
         </div>
         <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:mt-10 lg:max-w-none lg:grid-cols-12">
@@ -67,6 +68,21 @@ export default function Overview() {
                 </span>
               </li>
               <li className="flex gap-x-3">
+                <ClockIcon
+                  aria-hidden="true"
+                  className="mt-1 h-5 w-5 flex-none text-indigo-600"
+                />
+                <span>
+                  <strong className="font-semibold text-gray-900">
+                    Time Management.
+                  </strong>{" "}
+                  I consistently complete my user stories within the sprint and
+                  the allocated story points by prioritizing tasks, breaking
+                  them down, and staying organized to ensure timely delivery and
+                  maintain team velocity.
+                </span>
+              </li>
+              <li className="flex gap-x-3">
                 <HandThumbUpIcon
                   aria-hidden="true"
                   className="mt-1 h-5 w-5 flex-none text-indigo-600"
@@ -75,7 +91,7 @@ export default function Overview() {
                   <strong className="font-semibold text-gray-900">
                     Adaptability.
                   </strong>{" "}
-                  I am flexbile and adaptable to any of the teams I've worked
+                  I am flexible and adaptable to any of the teams I've worked
                   on. There have been moments where I have been asked to work on
                   documentation I have never done before but I accept it as a
                   learning experience and ask for guidance and feedback when I
