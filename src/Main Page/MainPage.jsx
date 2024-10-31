@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 import CvsLogo from '../imgs/CvsLogo.png';
 import InteraptLogo from '../imgs/InteraptTransparentLogo.png';
 import headshot from '../imgs/TransparentNewHeadshot (1).png';
@@ -40,13 +42,13 @@ export default function MainPage() {
               </div>
             </dl>
             <div className="mt-10 flex">
-              <a
-                href="http://www.invadethecode.com"
+              <Link
+                to="/skills"
                 className="text-base font-semibold leading-7 text-indigo-600"
               >
                 Learn more about me and my journey!{" "}
                 <span aria-hidden="true">&rarr;</span>
-              </a>
+              </Link>
             </div>
           </div>
         </div>

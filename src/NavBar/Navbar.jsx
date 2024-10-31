@@ -28,10 +28,14 @@ export default function Navbar() {
                   </Link>
                 </li>
                 <li>
-                  <Link to="/">Talent Success Qualities</Link>
+                  <Link to="/talent-success-qualities">
+                    Talent Success Qualities
+                  </Link>
                 </li>
                 <li>
-                  <Link to="/">Continuous Learning and Growth</Link>
+                  <Link to="/continuous-learning">
+                    Continuous Learning and Growth
+                  </Link>
                 </li>
               </ul>
             </details>
