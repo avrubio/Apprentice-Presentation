@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 const stats = [
   {
     name: "Integrity",
@@ -32,15 +34,24 @@ export default function TalentSuccessQualities() {
             key={item.name}
             className="overflow-hidden rounded-lg bg-white px-4 py-5 shadow sm:p-6"
           >
-            <dt className="truncate text-sm font-medium text-gray-500">
+            <dt className="truncate text-3xl font-medium text-gray-500">
               {item.name}
             </dt>
-            <dd className="mt-1 text-3xl font-semibold tracking-tight text-gray-900">
+            <dd className="mt-1 text-sm font-semibold tracking-tight text-gray-900">
               {item.stat}
             </dd>
           </div>
         ))}
       </dl>
+      <div className="mt-10 flex justify-center">
+        <Link
+          to="/continuous-learning"
+          className="text-base font-semibold leading-7 text-indigo-600"
+        >
+          Learn about my Continuous Learning!{" "}
+          <span aria-hidden="true">&rarr;</span>
+        </Link>
+      </div>
     </div>
   );
 }

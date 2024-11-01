@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 import genUSA from '../imgs/GenUSA.png';
 import PPEphoto from '../imgs/PPE.jpg';
 import udemy from '../imgs/udemyLogo.png';
@@ -108,6 +110,15 @@ export default function SkillsPage() {
             <div className="pointer-events-none absolute inset-px rounded-lg shadow ring-1 ring-black/5 max-lg:rounded-b-[2rem] lg:rounded-r-[2rem]"></div>
           </div>
         </div>
+      </div>
+      <div className="mt-10 flex justify-center">
+        <Link
+          to="/overview"
+          className="text-base font-semibold leading-7 text-indigo-600"
+        >
+          Learn about my overview and team responsibilities!{" "}
+          <span aria-hidden="true">&rarr;</span>
+        </Link>
       </div>
     </div>
   );

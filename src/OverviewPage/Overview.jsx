@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 import {
   AcademicCapIcon,
   ClockIcon,
@@ -127,6 +129,15 @@ export default function Overview() {
             </ul>
           </div>
         </div>
+      </div>
+      <div className="mt-10 flex justify-center">
+        <Link
+          to="/talent-success-qualities"
+          className="text-base font-semibold leading-7 text-indigo-600"
+        >
+          Learn about my Talent Success Qualities!{" "}
+          <span aria-hidden="true">&rarr;</span>
+        </Link>
       </div>
     </div>
   );
