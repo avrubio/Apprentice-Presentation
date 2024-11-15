@@ -30,6 +30,10 @@ function App() {
           <Route path="/continuous-learning" element={<ContinuousLearning />} />
         </Routes>
       </BrowserRouter>
+      <script
+        src="https://kit.fontawesome.com/39600a69bb.js"
+        crossorigin="anonymous"
+      ></script>
     </div>
   );
 }

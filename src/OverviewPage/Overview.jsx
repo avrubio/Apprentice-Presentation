@@ -9,24 +9,18 @@ import {
 } from '@heroicons/react/20/solid';
 
 import SteveJobs from '../imgs/Stevejobs.webp';
+import TeamInfo from './InfoOnEachTeam/TeamInfo';
 
 export default function Overview() {
   return (
     <div className="py-10 sm:py-10">
+      <TeamInfo></TeamInfo>
       <div
         aria-hidden="true"
         className="absolute -top-80 left-[max(6rem,33%)] -z-10 transform-gpu blur-3xl sm:left-1/2 md:top-20 lg:ml-20 xl:top-3 xl:ml-56"
       ></div>
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="mx-auto max-w-2xl lg:mx-0">
-          <h1 className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-indigo-600 sm:text-5xl text-left">
-            Teams & Responsibilities
-          </h1>
-          <p className="mt-6 text-xl/8 text-gray-700 text-left">
-            With CVS Health I have been on three teams so far. <br></br>
-            Clinical Formulary Requirements, End to End, and Digital Pulse.
-          </p>
-        </div>
+        <div className="mx-auto max-w-2xl lg:mx-0"></div>
         <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:mt-10 lg:max-w-none lg:grid-cols-12">
           <div className="relative lg:order-last lg:col-span-5">
             <figure className="border-l border-indigo-600 pl-8">
@@ -130,6 +124,7 @@ export default function Overview() {
           </div>
         </div>
       </div>
+
       <div className="mt-10 flex justify-center">
         <Link
           to="/talent-success-qualities"
